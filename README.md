@@ -29,7 +29,8 @@ In the root directory of the project, open a terminal window and run the followi
 npm start
 This command starts the NodeJS server at http://localhost:5000.
 
-Step 4: Start the client
+## Step 4: 
+Start the client
 Next, open another terminal window and navigate to the client directory in the root directory of the project. Run the following command to start the ReactJS client:
 
 npm start
