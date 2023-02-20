@@ -9,18 +9,21 @@ NodeJS (version 14 or later)
 npm (Node Package Manager)
 ReactJS
 
-Step 1: Clone the repository
+## Step 1: 
+Clone the repository
 First, you need to clone the repository of the Todo list application from a Git repository.
 
 git clone https://github.com/<username>/<repository-name>.git
 
-Step 2: Install Dependencies
+## Step 2: 
+Install Dependencies
 Next, you need to install the dependencies for both the front-end and back-end. In the root directory of the project, open a terminal window and run the following command:
 
 npm install
 This command installs all the dependencies required for both the front-end and back-end.
 
-Step 3: Start the server
+## Step 3: 
+Start the server
 In the root directory of the project, open a terminal window and run the following command to start the NodeJS server:
 
 npm start
@@ -32,7 +35,8 @@ Next, open another terminal window and navigate to the client directory in the r
 npm start
 This command starts the ReactJS client at http://localhost:3000.
 
-Step 5: View the application
+## Step 5: 
+View the application
 Open a web browser and navigate to http://localhost:3000. You should see the Todo list application running in the web browser.
 
 You can add, edit, and delete tasks in the Todo list application.
