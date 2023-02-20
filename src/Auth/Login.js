@@ -18,7 +18,7 @@ export default function Login() {
         // set configurations
         const configuration = {
             method: "post",
-            url: "http://localhost:3000/login",
+            url: "https://fantastic-boa-bikini.cyclic.app/login",
             data: {
                 email,
                 password,

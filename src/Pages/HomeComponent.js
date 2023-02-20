@@ -32,7 +32,7 @@ export default function HomeComponent() {
         // set configurations for the API call here
         const configuration = {
             method: "get",
-            url: `http://localhost:3000/my-todos/${userinfo.id}`,
+            url: `https://fantastic-boa-bikini.cyclic.app/my-todos/${userinfo.id}`,
             headers: {
                 Authorization: `Bearer ${token}`,
             },
@@ -95,7 +95,7 @@ export default function HomeComponent() {
 
         const configuration = {
             method: "put",
-            url: `http://localhost:3000/edit-todo/${todo._id}`,
+            url: `https://fantastic-boa-bikini.cyclic.app/edit-todo/${todo._id}`,
             todo,
             data: {
                 todo: todo,
@@ -117,7 +117,7 @@ export default function HomeComponent() {
     const deleteTodo = (id) => {
         const configuration = {
             method: "post",
-            url: `http://localhost:3000/delete-todo/${id}`,
+            url: `https://fantastic-boa-bikini.cyclic.app/delete-todo/${id}`,
             headers: {
                 Authorization: `Bearer ${token}`,
             },
@@ -137,7 +137,7 @@ export default function HomeComponent() {
 
         const configuration = {
             method: "post",
-            url: "http://localhost:3000/add-todo",
+            url: "https://fantastic-boa-bikini.cyclic.app/add-todo",
             data: {
                 name: formData.name,
                 description: formData.description,

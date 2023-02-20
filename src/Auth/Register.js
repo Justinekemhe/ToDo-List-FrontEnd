@@ -18,7 +18,7 @@ export default function Register() {
         // set configurations
         const configuration = {
             method: "post",
-            url: "http://localhost:3000/register",
+            url: "https://fantastic-boa-bikini.cyclic.app/register",
             data: {
                 fname,
                 lname,
