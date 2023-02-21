@@ -27,7 +27,7 @@ Start the server
 In the root directory of the project, open a terminal window and run the following command to start the NodeJS server:
 
 npm start
-This command starts the NodeJS server at http://localhost:5000.
+This command starts the NodeJS server at http://localhost:3000.
 
 ## Step 4: 
 Start the client
